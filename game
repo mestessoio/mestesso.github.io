@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    
+    <link rel="stylesheet" href="game.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        body{
+            background-image: url(https://wallpapercave.com/wp/wp2885488.png);
+            justify-content:start ;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <div class="quadrato">
+        <img src="pc.png" alt="pc">
+        
+        
+    </div>
+    
+    <hr>
+    <!--menu-->
+    <div class="div-menu">
+        <a class="title" href="#categoria1">News</a>
+        <a class="title" href="#categoria2">Organs retail</a>
+        <a class="title" href="#categoria1">mfs</a>
+        <a class="title" href="#categoria1">About us</a>
+        <p id="score">score: 0</p>
+      </div>
+      <br>
+
+
+      <!--titolo-->
+    <div id="wow">
+        <h1>wow it moves!</h1>
+        
+    </div>
+    <h2 id="sub">(click the image to increase the score)</h2>
+
+    <div>
+
+    </div>
+
+   
+    <script src="game.js"></script>
+
+    
+</body>
+</html>

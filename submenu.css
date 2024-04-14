@@ -1,8 +1,9 @@
 
 body{
     font-family: 'roboto', sans-serif;
-    background-image: url('doggo.jpg');
-    
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
 }
 
 *{
@@ -12,15 +13,7 @@ body{
     list-style: none;
 } 
 
-/* .titolo{
-    margin: auto;
-    width: 40%;
-    border: 2px solid black;
-    border-radius: 100px;
-    padding: 10px;
-    text-align: center;
-    background-color: #4654e1;
-} */
+
 
 .title-word{
     animation: color-animation 4s linear infinite;
@@ -69,12 +62,17 @@ body{
   
   /* Here are just some visual styles. 🖌 */
   
-  .titolo {
+.titolo {
     display: grid;
     place-items: center;  
     text-align: center;
     height: 1vh
-  }
+}
+
+.titolo p{
+    font-size: 20px;
+    color: white;
+}
   
   .title {
     font-family: "Montserrat", sans-serif;
@@ -89,7 +87,7 @@ body{
     left: -300px;
     width: 300px;
     height: 100%;
-    background: rgb(18, 126, 161);
+    background: rgb(192, 12, 12);
     transition: .4s;
 }
 
@@ -98,27 +96,27 @@ body{
     color: white;
     text-align: center;
     line-height: 70px;
-    background: rgb(8, 73, 110);
+    background: rgb(68, 3, 3);
     user-select: none;
 }
 
 .news{
     padding-top: 10px;
-    background-color: #ff7300;
+    background-color: #7a0303;
 }
 
 
 
 form{
     margin: auto;
-    background-color: #4654e1;
+    background-color: #7a0707;
     width: 300px;
     height: 44px;
     align-items: right;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 input{
@@ -185,8 +183,8 @@ label #btn, label #cancel{
 }
 
 label #btn{
-    left: 40px;
-    top: 8px;
+    left: 20px;
+    top: 20px;
     font-size: 25px;
     color: white;
     padding: 6px 12px;
@@ -293,9 +291,11 @@ label #cancel{
 .gif{
     padding-left: 750px;
     padding-top: 500px;
+    
 }
 
 .juan{
-    padding-left: 20px;
+    padding-left: 10px;
+    ;
     text-align: center;
 }
